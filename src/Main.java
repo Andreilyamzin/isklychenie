@@ -4,15 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(isStringCorrect("ageswhAsthsrhs"));
-try{
-        check("admin", "qwe123qwe1", "qwe123qwe1");
-    System.out.println("Проверка пройдена!");
-    } catch(WrongLoginException | WrongPasswordException e)
-    {
-        System.out.println(e.getMessage());
-    }
+        try{
+            check("admin", "qwe123qwe1", "qwe123qwe1");
+            System.out.println("Проверка пройдена!");
+        } catch(WrongLoginException | WrongPasswordException e)
+        {
+            System.out.println(e.getMessage());
+        }
 
-}
+    }
 
 
     public static void check(String login, String password, String confirmPassword) {

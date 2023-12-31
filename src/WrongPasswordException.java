@@ -19,3 +19,4 @@ public class WrongPasswordException extends RuntimeException {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }
+
