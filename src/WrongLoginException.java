@@ -19,3 +19,4 @@ public class WrongLoginException extends RuntimeException {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }
+
